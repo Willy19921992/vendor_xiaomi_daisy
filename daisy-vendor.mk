@@ -61,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/lib/com.quicinc.cne.server@2.1.so:system/lib/com.quicinc.cne.server@2.1.so \
     vendor/xiaomi/daisy/proprietary/lib/com.quicinc.cne.server@2.2.so:system/lib/com.quicinc.cne.server@2.2.so \
     vendor/xiaomi/daisy/proprietary/lib/extractors/libmmparser.so:system/lib/extractors/libmmparser.so \
-    vendor/xiaomi/daisy/proprietary/lib/fm_helium.so:system/lib/fm_helium.so \
     vendor/xiaomi/daisy/proprietary/lib/lib-imscamera.so:system/lib/lib-imscamera.so \
     vendor/xiaomi/daisy/proprietary/lib/lib-imsvideocodec.so:system/lib/lib-imsvideocodec.so \
     vendor/xiaomi/daisy/proprietary/lib/lib-imsvt.so:system/lib/lib-imsvt.so \
@@ -74,7 +73,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/lib/libdpmfdmgr.so:system/lib/libdpmfdmgr.so \
     vendor/xiaomi/daisy/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
     vendor/xiaomi/daisy/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
-    vendor/xiaomi/daisy/proprietary/lib/libfm-hci.so:system/lib/libfm-hci.so \
     vendor/xiaomi/daisy/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/xiaomi/daisy/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/xiaomi/daisy/proprietary/lib/libmmosal.so:system/lib/libmmosal.so \
@@ -132,7 +130,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/lib64/com.qualcomm.qti.imscmservice@2.1.so:system/lib64/com.qualcomm.qti.imscmservice@2.1.so \
     vendor/xiaomi/daisy/proprietary/lib64/com.qualcomm.qti.uceservice@2.0.so:system/lib64/com.qualcomm.qti.uceservice@2.0.so \
     vendor/xiaomi/daisy/proprietary/lib64/extractors/libmmparser.so:system/lib64/extractors/libmmparser.so \
-    vendor/xiaomi/daisy/proprietary/lib64/fm_helium.so:system/lib64/fm_helium.so \
     vendor/xiaomi/daisy/proprietary/lib64/lib-imscamera.so:system/lib64/lib-imscamera.so \
     vendor/xiaomi/daisy/proprietary/lib64/lib-imsvideocodec.so:system/lib64/lib-imsvideocodec.so \
     vendor/xiaomi/daisy/proprietary/lib64/lib-imsvt.so:system/lib64/lib-imsvt.so \
@@ -145,7 +142,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/lib64/libdpmfdmgr.so:system/lib64/libdpmfdmgr.so \
     vendor/xiaomi/daisy/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
     vendor/xiaomi/daisy/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
-    vendor/xiaomi/daisy/proprietary/lib64/libfm-hci.so:system/lib64/libfm-hci.so \
     vendor/xiaomi/daisy/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/xiaomi/daisy/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/xiaomi/daisy/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
@@ -513,6 +509,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libQTapGLES.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_adreno.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib/egl/libq3dtools_esx.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/fm_helium.so:$(TARGET_COPY_OUT_VENDOR)/lib/fm_helium.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib/ftm_fm_lib.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/hw/activity_recognition.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/activity_recognition.msm8953.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so \
@@ -2568,6 +2565,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libfastrpc_utf_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfastrpc_utf_stub.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libflash_pmic.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflash_pmic.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib/libflp.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib/libfm-hci.so:$(TARGET_COPY_OUT_VENDOR)/lib/libfm-hci.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgarden.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-calwrapper.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib/libgcs-ipc.so \
@@ -2989,6 +2987,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/egl/libQTapGLES.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libQTapGLES.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/egl/libq3dtools_adreno.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_adreno.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/egl/libq3dtools_esx.so:$(TARGET_COPY_OUT_VENDOR)/lib64/egl/libq3dtools_esx.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/fm_helium.so:$(TARGET_COPY_OUT_VENDOR)/lib64/fm_helium.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/ftm_fm_lib.so:$(TARGET_COPY_OUT_VENDOR)/lib64/ftm_fm_lib.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/hw/activity_recognition.msm8953.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/activity_recognition.msm8953.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so:$(TARGET_COPY_OUT_VENDOR)/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so \
@@ -3123,6 +3122,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libfastcvopt.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastcvopt.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libfastrpc_utf_stub.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfastrpc_utf_stub.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libflp.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libflp.so \
+    vendor/xiaomi/daisy/proprietary/vendor/lib64/libfm-hci.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libfm-hci.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libgarden.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgarden.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libgcs-calwrapper.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-calwrapper.so \
     vendor/xiaomi/daisy/proprietary/vendor/lib64/libgcs-ipc.so:$(TARGET_COPY_OUT_VENDOR)/lib64/libgcs-ipc.so \
@@ -3420,6 +3420,7 @@ PRODUCT_PACKAGES += \
     android.hardware.sensors@1.0-impl \
     android.hardware.soundtrigger@2.1-impl \
     android.hardware.thermal@1.0-impl \
+    android.hidl.base@1.0 \
     audio.r_submix.default \
     audio.usb.default \
     libalsautils \
