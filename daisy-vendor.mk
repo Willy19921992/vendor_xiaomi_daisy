@@ -3384,49 +3384,15 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     WfdCommon
 
-# The following are components normally built in LineageOS as part of the
-# device tree; but since we are used the Halium tree, these were excluded and
-# we must include them manually:
 PRODUCT_PACKAGES += \
     android.hardware.cas@1.0-service \
     android.hardware.media.omx@1.0-service \
-    android.hardware.audio@2.0-service \
-    android.hardware.boot@1.0-service \
-    android.hardware.camera.provider@2.4-service \
-    android.hardware.drm@1.0-service \
-    android.hardware.drm@1.1-service.clearkey \
-    android.hardware.graphics.allocator@2.0-service \
-    android.hardware.graphics.composer@2.1-service \
     android.hardware.health@2.0-service \
-    android.hardware.ir@1.0-service \
-    android.hardware.light@2.0-service \
-    android.hardware.memtrack@1.0-service \
-    android.hardware.sensors@1.0-service \
-    android.hardware.thermal@1.0-service \
-    android.hardware.wifi@1.0-service \
-    android.hardware.audio.effect@2.0-impl \
-    android.hardware.audio.effect@4.0-impl \
-    android.hardware.audio@2.0-impl \
-    android.hardware.audio@4.0-impl \
-    android.hardware.boot@1.0-impl \
-    android.hardware.camera.provider@2.4-impl \
-    android.hardware.drm@1.0-impl \
-    android.hardware.graphics.allocator@2.0-impl \
-    android.hardware.graphics.composer@2.1-impl \
-    android.hardware.ir@1.0-impl \
-    android.hardware.light@2.0-impl \
-    android.hardware.memtrack@1.0-impl \
-    android.hardware.renderscript@1.0-impl \
-    android.hardware.sensors@1.0-impl \
     android.hardware.soundtrigger@2.1-impl \
-    android.hardware.thermal@1.0-impl \
-    android.hidl.base@1.0 \
     audio.r_submix.default \
     audio.usb.default \
     libalsautils \
-    libjson \
     libnbaio_mono \
-    libtinyxml \
     libbundlewrapper \
     libdownmix \
     libdynproc \
@@ -3435,7 +3401,6 @@ PRODUCT_PACKAGES += \
     libreverbwrapper \
     libvisualizer \
     libclearkeycasplugin \
-    libcld80211 \
     libreference-ril \
     libril \
     audio.primary.default \
